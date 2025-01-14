@@ -70,10 +70,15 @@ def send_api_request(profile_id, message,  session_id, steam_login_sequre):
 
 
 main_account = {
+    # Example :
+    # "profile" : "76561198261286661",
     "profile" : "Your profile ID",
+    # Example :
+    # "session_id" : "35bf242cac659b5f6af6116b",
     "session_id" : "Your session ID",
+    # Example : 
+    # "steam_login_sequre" : "eyAidHlwIjogIkpXVCIsICJhbGciAiAiRWWEU1EiIH0.eyAiaXNzIjogInI6MDAwRl8yNUE3NUI5Ql81NUVCMyIsICJzdWIiOiAiNzY1NjExOTgyNjEyODY2NjEiLCAiYXVkIjogWyAid2ViOmNvbW11bml0eSIgXSwgImV4cCI6IDE3MzY5Nzg3NDYsICJuYmYiOiAxNzI4MjUxNzg3LCAiaWF0IjogMTczNjg5MTc4NywgImp0aSI6ICIwMDA5XzI1QTc1Qjk5XzU5MzAxIiwgIm9hdCI6IDE3MzY4OTE3ODYsICJydF9leHAiOiAxNzU1MDc4MTY4LCAicGVyIjogMCwgImlwX3N1YmplY3QiOiAiMTYzLjE3Mi4xMzcuMTIiLCAbaXBfY29uZmlybWVyIjogIjE2My4xNzIuMTM3LjEyIiB9.aSg1fkAKzfr0ytI1l86OEyP---LHWdNCpbQC2wovcN4aYq3PbgQGXdj4cQXbOpO_-RKZJQ4UC7mvfU_UrVuhDg"
     "steam_login_sequre" : "Your login sequre"
-    # Example : eyAidHlwIjogIkpXVCIsICJhbGciAiAiRWWEU1EiIH0.eyAiaXNzIjogInI6MDAwRl8yNUE3NUI5Ql81NUVCMyIsICJzdWIiOiAiNzY1NjExOTgyNjEyODY2NjEiLCAiYXVkIjogWyAid2ViOmNvbW11bml0eSIgXSwgImV4cCI6IDE3MzY5Nzg3NDYsICJuYmYiOiAxNzI4MjUxNzg3LCAiaWF0IjogMTczNjg5MTc4NywgImp0aSI6ICIwMDA5XzI1QTc1Qjk5XzU5MzAxIiwgIm9hdCI6IDE3MzY4OTE3ODYsICJydF9leHAiOiAxNzU1MDc4MTY4LCAicGVyIjogMCwgImlwX3N1YmplY3QiOiAiMTYzLjE3Mi4xMzcuMTIiLCAbaXBfY29uZmlybWVyIjogIjE2My4xNzIuMTM3LjEyIiB9.aSg1fkAKzfr0ytI1l86OEyP---LHWdNCpbQC2wovcN4aYq3PbgQGXdj4cQXbOpO_-RKZJQ4UC7mvfU_UrVuhDg
 }
 
 alt_account_1 = {
